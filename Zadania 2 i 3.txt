@@ -1,0 +1,13 @@
+GIT
+badanie statusu zmian - git status
+dodanie brakujących plików - git add -A
+potwierdzenie - git commit -m
+wysylanie do repozytorium - git remote add origin https://github.com/Tetrykk/CDV.git git push origin master
+
+SQL
+SELECT * FROM CoffeShop WHERE Product LIKE "Latte" AND Product LIKE "Long Black" AND NOT LIKE "Philadelphia";
+SELECT Product, Size FROM CoffeShop WHERE Customer ref LIKE "thompson_86" AND Customer ref LIKE "mark taylor_113";
+SELECT City FROM CoffeShop WHERE Product LIKE "Capuccino" AND Product LIKE "FlatWhite";
+
+
+
